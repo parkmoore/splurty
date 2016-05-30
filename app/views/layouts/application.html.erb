@@ -30,8 +30,19 @@
   <hr />
 
   <br clear="clear" />
-
+<div class="container">
 <%= yield %>
+
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+    Proudly hacked in Nashville, TN by <a href="http://parkmoore.github.io/">Parker</a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
