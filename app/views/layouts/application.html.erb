@@ -10,7 +10,7 @@
 
   <header>
     <div class="col-xs-3">
-      <%= link_to root_path do %>
+      <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
           Winston
@@ -38,7 +38,7 @@
 <div class="footer">
   <div class="container">
     <div class="col-xs-6">
-      <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+      <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
     </div>
     <div class="col-xs-6 footer-blurb">
     Proudly hacked in Nashville, TN by <a href="http://parkmoore.github.io/">Parker</a>
